@@ -18,7 +18,7 @@ body {
 
 .left-half {
   position: relative;
-  background-image: url("IMG_20200720_001042.svg");
+  background-image: url("../img/IMG_20200720_001042.svg");
   width: 38%;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .logo {
-  background-image: url("odin-lined.svg");
+  background-image: url("../img/odin-lined.svg");
   height: 100px;
   width: 70px;
   margin-right: 20px;

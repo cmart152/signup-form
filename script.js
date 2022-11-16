@@ -27,6 +27,8 @@ document.querySelector("button").onclick = function(){
     newDiv.classList.add("uber-small-font")
     newDiv.setAttribute('id', 'red-text')
     document.getElementById("confirm").appendChild(newDiv);
+    password.removeAttribute("placeholder")
+    cpassword.removeAttribute("placeholder")
     password.classList.add("invalid");
     cpassword.classList.add("invalid");
     return false
